@@ -1,0 +1,22 @@
+
+    <h1>Proyecto de programacion con Python</h1>
+    <p>En este proyecto se utilizan dos librerias Flask para el desarrollo de la aplicacion web y pandas para el manejo de big data.</p>
+    <p>El fin de este proyecto es realizar una aplicacion web que filtre un archivo con pandas.</p>
+    <h2>Fitros</h2>
+    <form action="filtrar_datos" method="post">
+        <label for="time">Tiempo:</label>
+        <input type="text" name="timeStart"><p style="display: inline;">-</p><input type="text" name="timeEnd">
+        <label for="srcDevice">Dispositivo origen:</label>
+        <input type="text" name="srcDevice">
+        <label for="dstDevice">Dispositivo destino:</label>
+        <input type="text" name="dstDevice">
+        <label for="protocol">Protocolo:</label>
+        <input type="text" name="protocol">
+        <label for="srcPort">Puerto origen:</label>
+        <input type="text" name="srcPort">
+        <label for="dstPort">Puerto destino:</label>
+        <input type="text" name="dstPort">
+        <label for="max">Coincidencias:</label>
+        <input type="number" name="max" value="1000">
+        <input type="submit" value="filtrar">
+    </form>
