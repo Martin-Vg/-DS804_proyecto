@@ -2,7 +2,7 @@
 ## Filtro de big data
 Este proyecto se utiliza pandas para el manejo de archivos de gran tamaño con la tecnicas de chunks y para el despliegue we se utiliza la libreria flask.
 
-##Instalacion
+### Instalacion
 1. Contar con un explorador web y python instalado
 2. Abrir una terminal en la ruta del proyecto y crear un entorno virtual con los siguientes comandos:
     - ```python -m venv venv```
