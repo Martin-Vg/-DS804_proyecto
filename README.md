@@ -1,6 +1,6 @@
 # Proyecto de Python
 ## Filtro de big data
-Este proyecto se utiliza pandas para el manejo de archivos de gran tamaño con la tecnicas de chunks y para el despliegue we se utiliza la libreria flask.
+Este proyecto se utiliza pandas para el manejo de archivos de gran tamaño con la tecnicas de chunks y para el despliegue web se utiliza la libreria flask.
 
 ### Instalacion
 1. Contar con un explorador web y python instalado
